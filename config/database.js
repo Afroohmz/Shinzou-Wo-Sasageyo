@@ -1,16 +1,12 @@
-// config/database.js
+const Sequelize = require('sequelize');
 
-const { Sequelize } = require('sequelize');
-
-// Load database configuration
-const { username, password, database, host, dialect } = require('./config.json');
-
-// Initialize Sequelize
-const sequelize = new Sequelize(database, username, password, {
-  host,
-  dialect,
-  logging: false // Set to true to log SQL queries
+// Initialize Sequelize with the SQLite dialect
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  storage: 'path/to/database.sqlite', // Change this to your SQLite database file path
 });
+
+module.exports = sequelize;
 
 // Test the database connection
 async function testConnection() {
