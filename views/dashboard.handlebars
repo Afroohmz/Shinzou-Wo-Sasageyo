@@ -1,33 +1,41 @@
-<!-- views/dashboard.handlebars -->
+{{!-- User Dashboard Page --}}
+<div class="row">
+    <div class="text-center mx-auto pt-2 user-name">
+        <h2 id="blogName">{{name}}'s Blog</h2>
+    </div>
+</div>
+<div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto text-left mt-5">
+                {{#if blogPosts.length}}
+                    {{#each blogPosts as |blogPost|}}
+                        {{ dashboardPost blogPost}}
+                        <br>
+                    {{/each}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-</head>
-<body>
-  <h1>Welcome to Your Dashboard</h1>
-  
-  <h2>Your Blog Posts</h2>
-  <ul>
-    {{#each posts}}
-      <li>
-        <h3>{{title}}</h3>
-        <p>{{content}}</p>
-        <p>Created on {{createdAt}}</p>
-      </li>
-    {{/each}}
-  </ul>
+    {{#if (is_my_page user.id userId)}}
+    <div class="container">
+        <div class="row text-center">
+            <a href="/create"><button class="btn btn-dark mt-3">Create a post!</button></a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    {{else}}
+    <div class="container">
+        <div class="row justify-content-center">
+            <p>This user hasn't created any posts yet!</p>
+        </div>
+    </div>
+    {{/if}}
+</div>
 
-  <h2>Add New Blog Post</h2>
-  <form action="/dashboard/new" method="POST">
-    <label for="title">Title:</label>
-    <input type="text" id="title" name="title" required><br>
-    <label for="content">Content:</label><br>
-    <textarea id="content" name="content" rows="4" required></textarea><br>
-    <button type="submit">Submit</button>
-  </form>
-</body>
-</html>
+<script src="/js/dashboard.js"></script>

@@ -1,0 +1,39 @@
+[
+    {
+      "comment_body": "Interesting perspective, but I disagree!",
+      "date_created": "December 10, 2023",
+      "user_id": 2,
+      "blogPost_id": 1
+    },
+    {
+      "comment_body": "Great insights! I learned a lot from this.",
+      "date_created": "January 5, 2024",
+      "user_id": 3,
+      "blogPost_id": 1
+    },
+    {
+      "comment_body": "Robots in our homes? Sounds fascinating!",
+      "date_created": "November 20, 2023",
+      "user_id": 3,
+      "blogPost_id": 2
+    },
+    {
+      "comment_body": "I'm curious, how advanced is the technology behind this?",
+      "date_created": "January 1, 2024",
+      "user_id": 1,
+      "blogPost_id": 2
+    },
+    {
+      "comment_body": "Haha, this made my day!",
+      "date_created": "February 10, 2021",
+      "user_id": 2,
+      "blogPost_id": 3
+    },
+    {
+      "comment_body": "Media plays a crucial role, but critical thinking is key.",
+      "date_created": "March 5, 2022",
+      "user_id": 1,
+      "blogPost_id": 3
+    }
+  ]
+  

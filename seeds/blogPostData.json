@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Exploring Sustainable Energy Solutions",
+      "description": "Discover the latest innovations in sustainable energy and how they are shaping the future of our planet.",
+      "date_created": "February 8, 2024",
+      "user_id": 1
+    },
+    {
+      "title": "Artificial Intelligence in Healthcare",
+      "description": "Explore the impact of artificial intelligence on healthcare and how it's revolutionizing patient care and medical research.",
+      "date_created": "March 15, 2024",
+      "user_id": 2
+    },
+    {
+      "title": "The Rise of Augmented Reality",
+      "description": "Dive into the world of augmented reality and its applications, from gaming to education and beyond.",
+      "date_created": "April 22, 2024",
+      "user_id": 3
+    }
+  ]
+  

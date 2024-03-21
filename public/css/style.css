@@ -1,0 +1,93 @@
+/* General page styles */
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0; /* Reset default body margin */
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  padding: 16px;
+  margin: 0; /* Reset default margin */
+}
+
+#blogName {
+  color: black;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a28089;
+  margin-top: 20px; /* Adjust margin-top for better spacing with the Navbar */
+}
+
+.homepage-main {
+  margin-top: 54px; /* Adjust margin-top to accommodate the Navbar height */
+}
+
+.user-name {
+  background-color: whitesmoke;
+}
+
+.blogPost-main {
+  margin-top: 54px; /* Adjust margin-top to accommodate the Navbar height */
+}
+
+/* Nav styles */
+.navBar {
+  background-color: whitesmoke;
+  margin-bottom: 20px; /* Adjust margin to separate the Navbar from the content */
+}
+
+.navbar-brand,
+.navbar-nav a,
+#logout {
+  color: #ffe5ec;
+}
+
+#logout {
+  background-color: #84a59d;
+}
+
+/* Input/textarea styles */
+
+/* Button styles */
+.btn {
+  background-color: black; /* Change background color to black */
+  color: white; /* Change text color to white */
+}
+
+/* Card styles */
+.card-header {
+  background-color: #e5eaf5;
+}
+
+.card-body {
+  background-color: whitesmoke;
+}
+
+.card {
+  background-color: #ffe5ec;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+/* Additional styles for better readability and consistency */
+a {
+  text-decoration: none; /* Remove default underline for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+  

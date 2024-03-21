@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Bob Marley",
+      "email": "onelove@gmail.com",
+      "password": "password1"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "email": "purplehaze@yahoo.com",
+      "password": "password12"
+    },
+    {
+      "name": "Stevie Nicks",
+      "email": "gypsy@outlook.com",
+      "password": "password123"
+    }
+  ]
+  
